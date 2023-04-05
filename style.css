@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Lora & family= Open+Sans:wght@300 & family= Poppins & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#c0c6a6;
+    background-image: url(img/borboleta.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #29585b;
+    font-size: 2.5rem;
+    letter-spacing: 4px; 
+    font-weight: 200;
+    margin-top: 7rem;
+    text-align: start;
+    margin-left: 7rem;
+}
+
+span{
+    color: #7e4f6e;
+    font-weight: 900;
+   
+}
+
+.relogio{
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+    width: 20rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #6ea3a7f3;
+    color: #1a393b;
+    font-style: italic;
+    border: double #6e90a7f3;
+    box-shadow: 6px 4px 7px 2px #6e90a7b2;
+    font-size: 2.5rem;
+    transition: 500ms;
+}
+
+.relogio:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 7px 2px #647c9c8f;
+}
+
+footer{
+    background-color: #7e4f6edc;
+    color: #244346;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    top: 14.5rem;
+    padding: 0.2rem;
+}
+
+p{  
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.icons{
+    margin: 1rem;
+}
